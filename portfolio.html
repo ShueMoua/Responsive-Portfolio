@@ -6,18 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="portfolio.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
 
 <style>
@@ -26,10 +19,9 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <a class="navbar-brand bg-info text-white" href="#">Shue Moua</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -49,22 +41,44 @@
 
     <br><br>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-8 text-left">
-                <h2 class="text-info">Portfolio</h2>
-                <hr>
-                <img src="pics/Me.jpg" alt="Shue in a Suit" width="300" height="300">
-                <img src="pics/me2.jpg" alt="Army" width="300" height="300">
-                <img src="pics/me3.jpg" alt="LA City" width="300" height="300">
-                <img src="pics/me4.jpg" alt="At the lake" width="300" height="300">
-                <img src="pics/me5.jpg" alt="Painting" width="300" height="300">
+            <div class="col-lg-2 text-left">
 
+            </div>
+            <div class="col-lg-10">
+                <h1 class="text-info">Portfolio</h1>
+                <hr>
+                <h3 class="text-info">Easy Shopper</h3>
+                <a href="https://shuemoua.github.io/Price-Comparison-App/">Visit the Easy Shopper website</a>
+                <br>
+                <a href="https://github.com/ShueMoua/Price-Comparison-App">Visit the Github Repository</a>
+                <img src="pics/easy_shopper.JPG" alt="easy shopper webpage">
+                <hr>
+                <p>The easy shopper application allows you to select a product and it will display the top 3 rated products from each website.</p>
+                <hr>
+                <h3 class="text-info">Random Password Generator</h3>
+                <a href="https://shuemoua.github.io/Password-Generator/">Create a Random Password</a>
+                <br>
+                <a href="https://github.com/ShueMoua/Password-Generator">Visit the Github Repository</a>
+                <br>
+                <img src="pics/password_generator.JPG" alt="password generator">
+                <hr>
+                <p>The random password application will generate a random password; You will have the option to choose between 8-128 characters, lowercase characters, uppercase characters, numbers and special characters.</p>
+                <hr>
+                <h3 class="text-info">Weather Dashboard</h3>
+                <a href="https://shuemoua.github.io/Weather-Dashboard/">Visit the Weather Dashboard</a>
+                <br>
+                <a href="https://github.com/ShueMoua/Weather-Dashboard">Visit the Github Repository</a>
+                <br>
+                <img src="pics/weather_dashboard.JPG" alt="weather dashboard">
+                <hr>
+                <p>The weather dashboard will allow you to search for the current weather in any city. It will provide you the temperature, humidity, and wind speed. You will also a 5-day forecast for that city.</p>
             </div>
         </div>
     </div>
     <footer class="footer bg-info fixed-bottom">
-        <p class="ft text-center">Copyright 2020 Shue Moua</p>
+        <p class="ft text-center"></p>
     </footer>
 
 </body>
